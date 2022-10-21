@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Boazy6qJEpjpB+ZQUyowkAIDpAehapvHxKL6YptEOeQTBsEjgVLsAcjIqte4Uy4MpVVBS+cm3o9bNq023Sh8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

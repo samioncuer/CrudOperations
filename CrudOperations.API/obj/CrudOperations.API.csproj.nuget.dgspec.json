@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.API\\CrudOperations.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.API\\CrudOperations.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.API\\CrudOperations.API.csproj",
+        "projectName": "CrudOperations.API",
+        "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.API\\CrudOperations.API.csproj",
+        "packagesPath": "C:\\Users\\samio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/K4XEvuwS6K2ltfyv6xCGnpn2SbhWAloCoLRSbcKDDW62SE21iD/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\CrudOperations.Business.csproj": {
+                "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\CrudOperations.Business.csproj"
+              },
+              "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj": {
+                "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.30, 3.1.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\CrudOperations.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\CrudOperations.Business.csproj",
+        "projectName": "CrudOperations.Business",
+        "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\CrudOperations.Business.csproj",
+        "packagesPath": "C:\\Users\\samio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/K4XEvuwS6K2ltfyv6xCGnpn2SbhWAloCoLRSbcKDDW62SE21iD/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\CrudOperations.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\CrudOperations.DataAccess.csproj"
+              },
+              "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj": {
+                "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\CrudOperations.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\CrudOperations.DataAccess.csproj",
+        "projectName": "CrudOperations.DataAccess",
+        "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\CrudOperations.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\samio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/K4XEvuwS6K2ltfyv6xCGnpn2SbhWAloCoLRSbcKDDW62SE21iD/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj": {
+                "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj",
+        "projectName": "CrudOperations.Entities",
+        "projectPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\CrudOperations.Entities.csproj",
+        "packagesPath": "C:\\Users\\samio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samio\\source\\repos\\CrudOperations\\CrudOperations.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/K4XEvuwS6K2ltfyv6xCGnpn2SbhWAloCoLRSbcKDDW62SE21iD/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\bin\Debug\netcoreapp3.1\CrudOperations.Entities.deps.json
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\bin\Debug\netcoreapp3.1\CrudOperations.Entities.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\bin\Debug\netcoreapp3.1\CrudOperations.Entities.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.csproj.AssemblyReference.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.AssemblyInfoInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.AssemblyInfo.cs
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.csproj.CoreCompileInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Entities\obj\Debug\netcoreapp3.1\CrudOperations.Entities.pdb

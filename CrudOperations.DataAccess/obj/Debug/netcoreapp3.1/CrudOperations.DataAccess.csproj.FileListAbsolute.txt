@@ -1,0 +1,16 @@
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.deps.json
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.runtimeconfig.json
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.runtimeconfig.dev.json
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.Entities.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\bin\Debug\netcoreapp3.1\CrudOperations.Entities.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.csproj.AssemblyReference.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.AssemblyInfoInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.AssemblyInfo.cs
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.csproj.CopyComplete
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.DataAccess\obj\Debug\netcoreapp3.1\CrudOperations.DataAccess.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.Business.deps.json
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.Business.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.Business.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.Entities.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.Entities.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.csproj.AssemblyReference.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.AssemblyInfoInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.AssemblyInfo.cs
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.csproj.CoreCompileInputs.cache
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.csproj.CopyComplete
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\obj\Debug\netcoreapp3.1\CrudOperations.Business.pdb
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.dll
+C:\Users\samio\source\repos\CrudOperations\CrudOperations.Business\bin\Debug\netcoreapp3.1\CrudOperations.DataAccess.pdb

@@ -1,0 +1,19 @@
+﻿using CrudOperations.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CrudOperations.DataAccess
+{
+    public class CrudOperationsDbContext : DbContext
+    {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer("Server=localhost; Database=CrudOperationsDb;uid=sa;pwd=1234");
+        }
+
+        public DbSet<Category> Categories { get; set; }
+    }
+}
