@@ -11,6 +11,7 @@ namespace CrudOperations.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
+            // TO DO : Con. String json dan okunacak
             optionsBuilder.UseSqlServer("Server=localhost; Database=CrudOperationsDb;uid=sa;pwd=1234");
         }
 
