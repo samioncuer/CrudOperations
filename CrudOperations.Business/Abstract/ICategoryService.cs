@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CrudOperations.Business.Abstract
 {
@@ -9,8 +10,8 @@ namespace CrudOperations.Business.Abstract
     {
         List<Category> GetAllCategories();
         Category GetCategoryById(int id);
-        Category CreateCategory(Category category);
-        Category UpdateCategory(Category category);
-        void DeleteCategory(int id);
+        Task<Category> CreateCategory(Category category);
+        Task<Category> UpdateCategory(Category category);
+        Task<bool> DeleteCategory(int id);
     }
 }

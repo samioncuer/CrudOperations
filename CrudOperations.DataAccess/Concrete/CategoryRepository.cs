@@ -1,9 +1,12 @@
 ﻿using CrudOperations.DataAccess.Abstract;
 using CrudOperations.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace CrudOperations.DataAccess.Concrete
 {
@@ -26,6 +29,7 @@ namespace CrudOperations.DataAccess.Concrete
             using (var crudOperationsDbContext = new CrudOperationsDbContext())
             {
                 var categoryToBeDeleted = GetCategoryById(id);
+                // soft delete yapılıp isDeleted flag'i true yapılmalı
                 crudOperationsDbContext.Categories.Remove(categoryToBeDeleted);
                 crudOperationsDbContext.SaveChanges();
             }
@@ -59,6 +63,38 @@ namespace CrudOperations.DataAccess.Concrete
                 crudOperationsDbContext.Categories.Update(category);
                 crudOperationsDbContext.SaveChanges();
                 return category;
+            }
+        }
+
+        public async Task<bool> IsNameExistAsync(string name)
+        {
+            using (var crudOperationsDbContext = new CrudOperationsDbContext())
+            {
+                var res = await crudOperationsDbContext.Categories.AnyAsync(x => x.Name == name);
+                if (res)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+
+        public async Task<bool> HasRelatedCategoryAsync(int id)
+        {
+            using (var crudOperationsDbContext = new CrudOperationsDbContext())
+            {
+                var res = await crudOperationsDbContext.Categories.AnyAsync(x => x.ParentId == id);
+                if (res)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
 

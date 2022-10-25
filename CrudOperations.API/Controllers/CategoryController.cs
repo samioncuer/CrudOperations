@@ -4,6 +4,7 @@ using CrudOperations.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CrudOperations.API.Controllers
 {
@@ -30,20 +31,20 @@ namespace CrudOperations.API.Controllers
         }
 
         [HttpPost]
-        public Category Create([FromBody]Category category)
+        public async Task<Category> Create([FromBody]Category category)
         {
-            return _categoryService.CreateCategory(category);
+            return await _categoryService.CreateCategory(category);
         }
         [HttpPut]
-        public Category Update([FromBody] Category category)
+        public async Task<Category> Update([FromBody] Category category)
         {
-            return _categoryService.UpdateCategory(category);
+            return await _categoryService.UpdateCategory(category);
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<bool> Delete(int id)
         {
-            _categoryService.DeleteCategory(id);
+            return await _categoryService.DeleteCategory(id);
         }
     }
 }
